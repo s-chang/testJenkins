@@ -60,10 +60,10 @@
   </build>
   
   <distributionManagement>
-    <site>
+    <repository>
       <id>temp.website</id>
       <name>temp website</name>
       <url>http://18.222.144.211:8080/testwebapp</url>
-    </site>
+    </repository>
   </distributionManagement>
 </project>
