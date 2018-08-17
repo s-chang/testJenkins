@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Shout</title>
+        <link type="text/css" rel="stylesheet" href="css/poststyle.css">
+    </head>
+
+    <body>  
+        <header>
+            <h2>Shout Message Board</h2>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="posts.html">Post</a></li>
+                    <li><a href="profile.html" class="current">Profile</a></li>
+                    <li onclick="logout()">Logout</li>
+                </ul>
+    
+            </nav>
+        </header>
+        
+       
+        <table id="thetable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Birthdate</th>
+                    <th>User Name</th>
+                    <th>Email</th>                    
+                </tr>                
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="fname"></td>
+                    <td id="lname"></td>
+                    <td id="bdate"></td>
+                    <td id="uname"></td>
+                    <td id="email"></td>                    
+                </tr>
+            </tbody>
+        </table>
+
+        <form>
+            <div id="password">
+                <label>
+                    Change Password:
+                </label>
+                <input type="password" id="pass" placeholder="New Password" />
+                <input type="button" id="button" onclick="updatePass()" value="Submit"/>
+            </div>
+
+        </form>
+        <script src="loadprofile.js"></script>
+        <script src="out.js"></script> 
+    </body>
+
+
+</html>

@@ -1,0 +1,38 @@
+html{
+    overflow: auto;
+}
+
+header{
+    color: white;
+    background: #333333;
+    min-width: 720px;
+    width: 100%;
+    height: 86px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    opacity: 0.90;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;       
+    text-decoration: none;
+}
+
+header nav{
+  padding: 0 20px 0 20px;
+}
+
+header nav ul{
+    list-style: none;
+    white-space: nowrap;
+    float: center;    
+}
+
+header nav ul li{
+    display: inline-block;
+    white-space: nowrap;
+    width: auto;
+    padding-left: 50px;
+    color: #f0f0f0;
+    text-decoration: none;
+}

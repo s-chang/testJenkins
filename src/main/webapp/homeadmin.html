@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Shout</title>
+        
+        <link type="text/css" rel="stylesheet" href="css/homestyle.css">
+    </head>
+
+    <body>  
+        <header>
+            <h2>Shout Message Board Admin</h2>
+            <nav>
+                <ul>
+                    <li><a href="homeadmin.html" class="current">Home</a></li>
+                    <li><a href="dashadmin.html">Dashboard</a></li>
+                    <li><a href="usersadmin.html">Users</a></li>
+                    <li><a href="flaggedadmin.html">Flagged</a></li>
+                    <li onclick="logout()">Logout</li>
+                </ul>    
+            </nav>
+        </header>
+        
+        <div id='title'></div>
+        <div id='posts'></div>
+        <script src="poster.js"></script>
+        <script src="out.js"></script>      
+    </body>
+</html>

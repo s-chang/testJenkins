@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Shout</title>
+      
+    </head>
+
+    <body>  
+        <header>
+            <h2>Shout Message Board</h2>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="posts.html" class="current">Post</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <li onclick="logout()">Logout</li>
+                </ul>
+            
+            </nav>
+        </header>
+        
+        <form>
+            <div name="topic">
+           </div>
+            <div name="message">
+                <label>Message:</label>
+                <textarea name="messagearea" rows="10" cols="60"></textarea>
+            </div>
+
+            <div name="button">
+                <button name="upload">Upload</button>
+            </div>
+            <input type="submit" name="submit" value="Submit" />
+            
+            
+           
+        </form>
+        <button name="cancel" onclick="location.href='home.html'">Cancel</button>
+
+     	<script src="out.js"></script> 
+    </body>
+
+</html>
