@@ -61,9 +61,9 @@
   
   <distributionManagement>
     <repository>
-      <id>temp.website</id>
-      <name>temp website</name>
-      <url>http://18.222.144.211:8080/testwebapp</url>
+      <id>internal.repo</id>
+      <name>Internal Repository</name>
+      <url>http://jenkins.internal.com/</url>
     </repository>
   </distributionManagement>
 </project>
