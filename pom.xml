@@ -63,7 +63,7 @@
     <repository>
       <id>localsnap</id>
       <name>RepositoryProxySnap</name>
-      <url>http://18.222.144.211:8080/testwebapp</url>
+      <url>http://18.222.144.211:8080/.m2/repository</url>
     </repository>
   </distributionManagement>
 </project>
