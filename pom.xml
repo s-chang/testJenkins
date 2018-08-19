@@ -62,7 +62,7 @@
   <distributionManagement>
     <repository>
       <id>localsnap</id>
-      <name>RepositoryProxyRel</name>
+      <name>RepositoryProxySnap</name>
       <url>http://18.222.144.211:8080</url>
     </repository>
   </distributionManagement>
