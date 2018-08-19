@@ -63,7 +63,7 @@
     <repository>
       <id>localsnap</id>
       <name>RepositoryProxySnap</name>
-      <url>http://18.222.144.211:8080/jenkins/job/test2proj/ws/target</url>
+      <url>http://18.222.144.211:8080</url>
     </repository>
   </distributionManagement>
 </project>
